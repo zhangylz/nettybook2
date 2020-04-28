@@ -38,6 +38,10 @@ public class SubReqServerHandler extends ChannelHandlerAdapter {
 	    System.out.println("Service accept client subscrib req : ["
 		    + req.toString() + "]");
 	    ctx.writeAndFlush(resp(req.getSubReqID()));
+	} else {
+		System.out.println("Error: Service accept client subscrib req : ["
+				+ req.toString() + "]");
+		ctx.writeAndFlush(resp(req.getSubReqID(), -1));
 	}
     }
 
@@ -48,6 +52,14 @@ public class SubReqServerHandler extends ChannelHandlerAdapter {
 	resp.setDesc("Netty book order succeed, 3 days later, sent to the designated address");
 	return resp;
     }
+
+    private  SubscribeResp resp(int subReqID, int errorCode) {
+		SubscribeResp resp = new SubscribeResp();
+		resp.setSubReqID(subReqID);
+		resp.setRespCode(errorCode);
+		resp.setDesc("Netty book order error");
+    	return resp;
+	}
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {

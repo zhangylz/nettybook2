@@ -27,6 +27,8 @@ import io.netty.handler.codec.http.HttpRequestDecoder;
 import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
+import java.net.InetSocketAddress;
+
 /**
  * @author lilinfeng
  * @date 2014年2月14日
@@ -34,15 +36,15 @@ import io.netty.handler.stream.ChunkedWriteHandler;
  */
 public class HttpFileServer {
 
-    private static final String DEFAULT_URL = "/src/com/phei/netty/";
-
+//    private static final String DEFAULT_URL = "/src/com/phei/netty/"; // 共享的路径是 项目根路径下的路径
+	private static final String DEFAULT_URL = "/bin";
     public void run(final int port, final String url) throws Exception {
 	EventLoopGroup bossGroup = new NioEventLoopGroup();
 	EventLoopGroup workerGroup = new NioEventLoopGroup();
 	try {
 	    ServerBootstrap b = new ServerBootstrap();
 	    b.group(bossGroup, workerGroup)
-		    .channel(NioServerSocketChannel.class)
+		    .channel(NioServerSocketChannel.class) /*指定使用NIO进行网络传输*/
 		    .childHandler(new ChannelInitializer<SocketChannel>() {
 			@Override
 			protected void initChannel(SocketChannel ch)
@@ -59,8 +61,8 @@ public class HttpFileServer {
 				    new HttpFileServerHandler(url));// 业务逻辑
 			}
 		    });
-	    ChannelFuture future = b.bind("192.168.1.102", port).sync();
-	    System.out.println("HTTP文件目录服务器启动，网址是 : " + "http://192.168.1.102:"
+	    ChannelFuture future = b.bind(new InetSocketAddress(port)).sync(); // can do b.bind("10.33.80.55", port)
+	    System.out.println("HTTP文件目录服务器启动，网址是 : " + "http://10.33.80.55:"
 		    + port + url);
 	    future.channel().closeFuture().sync();
 	} finally {

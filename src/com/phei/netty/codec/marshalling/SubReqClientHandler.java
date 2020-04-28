@@ -20,6 +20,10 @@ import io.netty.channel.ChannelHandlerContext;
 
 import com.phei.netty.codec.pojo.SubscribeReq;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * @author lilinfeng
  * @date 2014年2月14日
@@ -42,12 +46,15 @@ public class SubReqClientHandler extends ChannelHandlerAdapter {
     }
 
     private SubscribeReq subReq(int i) {
+        String names [] = new String[2];
+        names[0] = "Lilinfeng";
+        names[1] = "Leifeng";
 	SubscribeReq req = new SubscribeReq();
 	req.setAddress("NanJing YuHuaTai");
-	req.setPhoneNumber("138xxxxxxxxx");
+	req.setPhoneNumber("138xxxxxxxx"+(int)Math.ceil(Math.random() * 9));
 	req.setProductName("Netty Book For Marshalling");
 	req.setSubReqID(i);
-	req.setUserName("Lilinfeng");
+	req.setUserName(Math.random()> 0.5?names[0]:names[1] );
 	return req;
     }
 

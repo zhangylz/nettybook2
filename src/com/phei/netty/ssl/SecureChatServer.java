@@ -52,12 +52,12 @@ public class SecureChatServer {
     }
 
     public static void main(String[] args) throws Exception {
-	if (args.length != 1) {
-	    System.err.println("Please input ssl mode");
-	    System.exit(-1);
-
-	}
-	String sslMode = args[0];
+//	if (args.length != 1) {
+//	    System.err.println("Please input ssl mode");
+//	    System.exit(-1);
+//
+//	}
+	String sslMode = "CA"; //args[0];
 	int port = 8443;
 	new SecureChatServer(port, sslMode).run();
     }

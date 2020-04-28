@@ -15,19 +15,19 @@
  */
 package com.phei.netty.codec.pojo;
 
-import java.io.Serializable;
+import java.io.Serializable; // pojo 对象
 
 /**
  * @author Lilinfeng
  * @date 2014年2月23日
  * @version 1.0
  */
-public class SubscribeReq implements Serializable {
+public class SubscribeReq implements Serializable { // 实现 Serializable 接口
 
     /**
      * 默认的序列号ID
      */
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L; // 自动生成默认的序列化 ID
 
     private int subReqID;
 

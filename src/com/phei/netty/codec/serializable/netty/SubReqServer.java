@@ -55,7 +55,7 @@ public class SubReqServer {
 						    ClassResolvers
 							    .weakCachingConcurrentResolver(this
 								    .getClass()
-								    .getClassLoader())));
+								    .getClassLoader()))); // serializable
 			    ch.pipeline().addLast(new ObjectEncoder());
 			    ch.pipeline().addLast(new SubReqServerHandler());
 			}

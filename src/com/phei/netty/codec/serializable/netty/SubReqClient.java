@@ -23,6 +23,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.serialization.ClassResolvers;
 import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
@@ -45,12 +46,14 @@ public class SubReqClient {
 			@Override
 			public void initChannel(SocketChannel ch)
 				throws Exception {
+				ch.pipeline().addLast(
+						new ProtobufVarint32FrameDecoder());
 			    ch.pipeline().addLast(
 				    new ObjectDecoder(1024, ClassResolvers
 					    .cacheDisabled(this.getClass()
-						    .getClassLoader())));
-			    ch.pipeline().addLast(new ObjectEncoder());
-			    ch.pipeline().addLast(new SubReqClientHandler());
+						    .getClassLoader()))); // OSGI 禁止对类加载器进行缓存
+				ch.pipeline().addLast(new SubReqClientHandler());
+				ch.pipeline().addLast(new ObjectEncoder());
 			}
 		    });
 

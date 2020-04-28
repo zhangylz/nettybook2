@@ -58,10 +58,10 @@ public class TestSubscribeReqProto {
 	    throws InvalidProtocolBufferException {
 	SubscribeReqProto.SubscribeReq req = createSubscribeReq();
 	System.out.println("Before encode : " + req.toString());
+	System.out.println("encode: " + new String(encode(req)));
 	SubscribeReqProto.SubscribeReq req2 = decode(encode(req));
 	System.out.println("After decode : " + req.toString());
 	System.out.println("Assert equal : --> " + req2.equals(req));
-
     }
 
 }

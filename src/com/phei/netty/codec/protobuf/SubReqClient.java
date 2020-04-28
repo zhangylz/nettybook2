@@ -46,8 +46,8 @@ public class SubReqClient {
 			@Override
 			public void initChannel(SocketChannel ch)
 				throws Exception {
-			    ch.pipeline().addLast(
-				    new ProtobufVarint32FrameDecoder());
+				ch.pipeline().addLast(
+						new ProtobufVarint32FrameDecoder()); // 処理半包消息
 			    ch.pipeline().addLast(
 				    new ProtobufDecoder(
 					    SubscribeRespProto.SubscribeResp

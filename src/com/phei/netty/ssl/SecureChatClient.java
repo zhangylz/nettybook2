@@ -82,14 +82,14 @@ public class SecureChatClient {
 
     public static void main(String[] args) throws Exception {
 	// Print usage if no argument is specified.
-	if (args.length != 1) {
-	    System.err.println("Usage: "
-		    + SecureChatClient.class.getSimpleName() + " <sslmode>");
-	    return;
-	}
+//	if (args.length != 1) {
+//	    System.err.println("Usage: "
+//		    + SecureChatClient.class.getSimpleName() + " <sslmode>");
+//	    return;
+//	}
 
 	// Parse options.
-	String sslMode = args[0];
+	String sslMode = "CA"; //args[0];
 	new SecureChatClient("localhost", 8443, sslMode).run();
     }
 }
