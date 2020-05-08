@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b56a6d17-cbeb-408b-bbe0-d58e5a4f4195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/marshalling/SubReqClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/marshalling/SubReqClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/marshalling/SubReqServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/marshalling/SubReqServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/marshalling/SubReqServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/marshalling/SubReqServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/pojo/SubscribeReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/pojo/SubscribeReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/SubReqClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/SubReqClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/SubReqServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/SubReqServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/TestSubscribeReqProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/TestSubscribeReqProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/serializable/netty/SubReqClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/serializable/netty/SubReqClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/codec/serializable/netty/SubReqServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/codec/serializable/netty/SubReqServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/protocol/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/protocol/netty/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/LoginAuthRespHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/LoginAuthRespHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/log4j.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\backstudy\nettybook2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/work/tools/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1anwexG6iSk3CtgLhgtqOzClVb1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\backstudy\nettybook2\src\resources" />
+      <recent name="F:\backstudy\nettybook2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="FileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phei.netty.protocol.file.FileServer" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phei.netty.protocol.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpFileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phei.netty.protocol.http.fileServer.HttpFileServer" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phei.netty.protocol.http.fileServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpXmlClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phei.netty.protocol.http.xml.client.HttpXmlClient" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phei.netty.protocol.http.xml.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phei.netty.protocol.netty.client.NettyClient" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phei.netty.protocol.netty.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phei.netty.protocol.netty.server.NettyServer" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phei.netty.protocol.netty.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.FileServer" />
+        <item itemvalue="Application.HttpFileServer" />
+        <item itemvalue="Application.HttpXmlClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b56a6d17-cbeb-408b-bbe0-d58e5a4f4195" name="Default Changelist" comment="" />
+      <created>1587384764643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587384764643</updated>
+      <workItem from="1587384767156" duration="420000" />
+      <workItem from="1587385195559" duration="266000" />
+      <workItem from="1587385464097" duration="4454000" />
+      <workItem from="1587452739877" duration="597000" />
+      <workItem from="1587467376279" duration="3954000" />
+      <workItem from="1587554398945" duration="9073000" />
+      <workItem from="1587974285712" duration="28000" />
+      <workItem from="1587984508715" duration="10939000" />
+      <workItem from="1588229305257" duration="14000" />
+      <workItem from="1588832540304" duration="200000" />
+      <workItem from="1588832759329" duration="5127000" />
+      <workItem from="1588841179695" duration="944000" />
+      <workItem from="1588937254361" duration="887000" />
+      <workItem from="1588938247238" duration="522000" />
+      <workItem from="1588938912414" duration="346000" />
+      <workItem from="1588939261440" duration="1637000" />
+      <workItem from="1588941955597" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/ssl/SecureChatClientInitializer.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>35</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/SubReqServerHandler.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/codec/protobuf/SubReqServerHandler.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/http/fileServer/HttpFileServerHandler.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/LoginAuthRespHandler.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/netty/client/LoginAuthReqHandler.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/LoginAuthRespHandler.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/LoginAuthRespHandler.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/phei/netty/protocol/netty/server/LoginAuthRespHandler.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="SSLMODE" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nettybook2$NettyServer.ic" NAME="NettyServer Coverage Results" MODIFIED="1588941778836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.phei.netty.protocol.netty.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nettybook2$NettyClient.ic" NAME="NettyClient Coverage Results" MODIFIED="1588941795959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.phei.netty.protocol.netty.client.*</FILTER>
+    </SUITE>
+  </component>
+</project>

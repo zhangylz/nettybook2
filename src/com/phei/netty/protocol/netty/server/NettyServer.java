@@ -41,7 +41,7 @@ import org.apache.commons.logging.LogFactory;
  */
 public class NettyServer {
 
-	private static final Log LOG = LogFactory.getLog(NettyServer.class);
+	private static final Log log = LogFactory.getLog(NettyServer.class);
 
     public void bind() throws Exception {
 	// 配置服务端的NIO线程组
@@ -55,6 +55,7 @@ public class NettyServer {
 		    @Override
 		    public void initChannel(SocketChannel ch)
 			    throws IOException {
+//				ch.pipeline().addLast("logging",new LoggingHandler("DEBUG"));//设置log监听器，并且日志级别为debug，方便观察运行流程
 			ch.pipeline().addLast(
 				new NettyMessageDecoder(1024 * 1024, 4, 4));
 			ch.pipeline().addLast(new NettyMessageEncoder());
@@ -68,7 +69,7 @@ public class NettyServer {
 
 	// 绑定端口，同步等待成功
 	b.bind(NettyConstant.REMOTEIP, NettyConstant.PORT).sync();
-	LOG.info("Netty server start ok : "
+		log.info("Netty server start ok : "
 		+ (NettyConstant.REMOTEIP + " : " + NettyConstant.PORT));
     }
 
